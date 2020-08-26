@@ -1,5 +1,28 @@
-a{
-    height: 2rem;
-    margin: 1rem;
-    background-color: lightblue;
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+a {
+  font-size: 1.25rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.active {
+  background-color: tomato;
+  color: #fff;
+}
+
+.note {
+  margin-bottom: 30px;
+}
+
+.note p {
+  margin: 10px;
 }
